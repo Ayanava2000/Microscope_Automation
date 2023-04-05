@@ -50,7 +50,7 @@ def movement_y():
     motor_y.step_size = 20
     motor_y.rotate()
 
-# Function  to the Image Quality Metric
+# Function  to calculate the Image Quality Metric
 def img_grad(frame_new):
     prewitt_x = np.array([[-1, 0, 1], [-1, 0, 1], [-1, 0, 1]]) / 3
     prewitt_y = np.transpose(prewitt_x)
